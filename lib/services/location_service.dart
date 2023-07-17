@@ -2,8 +2,8 @@ import 'package:geolocator/geolocator.dart';
 import 'package:test_location/core/expections.dart';
 
 class LocationService {
-  late final LocationPermission permission;
-  late final bool serviceEnabled;
+  late LocationPermission permission;
+  late bool serviceEnabled;
   static LocationService? _instance;
 
   static LocationService getInstance() {
